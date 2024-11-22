@@ -1,0 +1,83 @@
+.form-block {
+    width: 30%;
+    height: 70%;
+    border: 1px solid #580eac;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0px 5px 10px 0px #580eac;
+    font-family: "Raleway", sans-serif;
+    animation: pulse 2s infinite;
+}
+
+.regestration-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    gap: 20px;
+}
+
+.reg-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20%;
+    width: 100%;
+}
+
+.input-style {
+    padding-left: 5px;
+    background: none;
+    border: 1px solid #0e6e75;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.2em;
+    width: 50%;
+    height: 15%;
+}
+.input-style:focus {
+    outline: 2px solid #0e6e75;
+    outline-offset: -1px;
+}
+
+.regestration-form__btn-sumbit {
+    background: none;
+    border: 1px solid #0e6e75;
+    border-radius: 20px;
+    color: #fff;
+    width: 25%;
+    height: 12%;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px #580eac;
+    }
+    50% {
+        box-shadow: 0 0 20px #580eac;
+    }
+    100% {
+        box-shadow: 0 0 10px #580eac;
+    }
+}
